@@ -20,7 +20,7 @@ jobs:
       - name: Run Tests
         run: swift test -v
       - name: Run CLI
-        run: swift run busq
+        run: swift run blunder
 
   ci-ios:
     runs-on: macos-latest
@@ -46,7 +46,7 @@ jobs:
       - name: Run Tests
         run: swift test -v
       - name: Run CLI
-        run: swift run busq
+        run: swift run blunder
 
   ci-windows:
     runs-on: windows-latest
@@ -61,5 +61,5 @@ jobs:
       - name: Run Tests
         run: swift test -v
       - name: Run CLI
-        run: swift run busq
+        run: swift run blunder
 

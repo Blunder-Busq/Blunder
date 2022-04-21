@@ -32,6 +32,6 @@ if excludeCLI {
         $0.type != .executable
     })
     package.products = package.products.filter({
-        $0.name != "busq"
+        $0.name != "blunder"
     })
 }
